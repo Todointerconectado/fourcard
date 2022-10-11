@@ -1,0 +1,88 @@
+/* ------------ Redes social's ------------ */
+.container-contacts {
+    margin: 10px 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    flex-wrap: wrap;
+}
+
+.container-contacts_redSocial {
+    margin: 0px;
+    list-style: none;
+    width: auto;
+    height: auto;
+}
+
+.container-contacts_figure {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-contacts_figure a {
+    margin-bottom: 5px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.container-contacts_figure a:hover {
+    filter: drop-shadow(0 0 3px var(--veryDarkMagenta));
+}
+
+.container-contacts_figure-img {
+    padding: 0;
+    width: 32px;
+    display: block;
+}
+
+/* ---- Boton de subida ----*/
+.fleche{
+    margin: 10px auto;
+    border-radius: 50%;
+    padding: 0;
+    width: 32px;
+    height: auto;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+}
+.fleche:hover {
+    transform: scale(1.2);
+}
+.symbol {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 790px) {
+    .container-contacts {
+        margin-top: 30px;
+    }
+
+    .container-contacts_figure-img {
+        width: 50px;
+    }
+
+    /* ---- Boton de subida ----*/
+    .fleche{
+        width: 50px;
+    }
+}

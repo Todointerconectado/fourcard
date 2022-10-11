@@ -2,44 +2,139 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <title>Frontend Mentor | Four card feature section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./syle.css">
+  <link rel="stylesheet" href="./redesSociales.css">
 </head>
-<body>
+
+<body id="profile">
+  <main class="mainContainerGeneral">
+    <section class="mainHeader">
+      <hgroup>
+        <h1 class="mainHeaderH1">Reliable, efficient delivery</h1>
+        <h2 class="mainHeaderH2">Powered by Technology</h2>
+      </hgroup>
+      <p class="mainHeaderText">
+        Our Artificial Intelligence powered tools use millions of project data points
+        to ensure that your project is successful
+      </p>
+    </section>
+
+    <section class="cards">
+
+      <article class="card card1">
+        <div class="cardContainer">
+          <h3 class="cardTitle">Supervisor</h3>
+          <p class="cardText">Monitors activity to identify project roadblocks</p>
+          <figure class="cardFigure">
+            <img src="./images/icon-supervisor.svg" alt="magnifying glass">
+          </figure>
+        </div>
+      </article>
+
+      <article class="twoCards">
+        
+        <article class="card card2">
+          <div class="cardContainer">
+            <h3 class="cardTitle">Team Builder</h3>
+            <p class="cardText">Scans our talent network to create the optimal team for your project</p>
+            <figure class="cardFigure">
+              <img src="./images/icon-team-builder.svg" alt="builder">
+            </figure>
+          </div>
+        </article>
+
+        <article class="card card3">
+          <div class="cardContainer">
+            <h3 class="cardTitle">Karma</h3>
+            <p class="cardText">Regularly evaluates our talent to ensure quality</p>
+            <figure class="cardFigure">
+              <img src="./images/icon-karma.svg" alt="karma">
+            </figure>
+          </div>
+        </article>
+
+      </article>
+      
+      <article class="card card4">
+        <div class="cardContainer">
+          <h3 class="cardTitle">Calculator</h3>
+          <p class="cardText">Uses data from past projects to provide better delivery estimates</p>
+          <figure class="cardFigure">
+            <img src="./images/icon-calculator.svg" alt="calculator">
+          </figure>
+        </div>
+      </article>
+
+    </section>
+  </main>
   
-  Reliable, efficient delivery
-  Powered by Technology
+  <footer class="footer">
+    <div>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a>
+      </p>
+      
+      <p class="attribution">
+        Coded by
+        <a href="https://todointerconectado.com">Todointerconectado | Francisco Carusso.</a>
+      </p>
+    </div>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
+    <nav class="nav-contactos">
+      <ul class="container-contacts">
+          <li class="container-contacts_redSocial">
+              <figure class="container-contacts_figure">
+                  <a href="https://www.instagram.com/franciscocarusso/" target="_blank">
+                      <img class="container-contacts_figure-img" src="./images/iconos/instagram.png" title="instagram" alt="instagram de francisco carusso - todointerconectado">
+                  </a>
+              </figure>
+          </li>
   
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+          <li class="container-contacts_redSocial">
+              <figure class="container-contacts_figure">
+                  <a href="https://www.linkedin.com/in/franciscocarusso/" target="_blank">
+                      <img class="container-contacts_figure-img" src="./images/iconos/linkedin.png" title="linkedin" alt="linkedin de francisco carusso - todointerconectado">
+                  </a>
+              </figure>
+          </li>
+          <li class="container-contacts_redSocial">
+              <figure class="container-contacts_figure">
+                  <a href="https://github.com/Todointerconectado" target="_blank">
+                      <img class="container-contacts_figure-img" src="./images/iconos/github.png" title="github" alt="github de francisco carusso - todointerconectado">
+                  </a>
+              </figure>
+          </li>
+          <li class="container-contacts_redSocial">
+              <figure class="container-contacts_figure">
+                  <a href="https://twitter.com/Francar32/" target="_blank">
+                      <img class="container-contacts_figure-img" src="./images/iconos/twiter.png" title="twitter" alt="twitter de francisco carusso - todointerconectado">
+                  </a>
+              </figure>
+          </li>
+          <li class="container-contacts_redSocial">
+              <figure class="container-contacts_figure">
+                  <a href="https://www.youtube.com/channel/UCY8m1JDOQFr1RvnrUnOiKMQ" target="_blank">
+                      <img class="container-contacts_figure-img" src="./images/iconos/youtube.png" title="youtube" alt="youtube de francisco carusso - todointerconectado">
+                  </a>
+              </figure>
+          </li>
+          <li class="container-contacts_redSocial">
+              <figure class="container-contacts_figure">
+                  <a href="https://wa.me/message/NDFDMQDDCCIBB1/" target="_blank">
+                      <img class="container-contacts_figure-img" src="./images/iconos/whatsapp.png" title="whatsapp" alt="whatsapp de francisco carusso - todointerconectado">
+                  </a>
+              </figure>
+          </li>
+      </ul>
+    </nav>
+
+    <a class="fleche" href="#profile">
+      <img class="symbol" src="./images/iconos/flecha.png" alt="fleche hacia arriba">
+    </a>
   </footer>
 </body>
 </html>
