@@ -27,7 +27,7 @@ body {
     scroll-behavior: smooth;
     font-size: 15px;
     color: var(--veryDarkBlue);
-    background: linear-gradient(var(--veryLightGraySure), var(--veryLightGraySure)), url(./images/fondo.jpg);
+    background: linear-gradient(var(--veryLightGraySure), var(--veryLightGraySure)), url(images/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
