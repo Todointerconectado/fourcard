@@ -14,7 +14,7 @@ Thanks for checking out this front-end coding challenge.
 
 Thanks for checking out this front-end coding challenge.
 
-Access the resolution of the challenge: [Todointerconectado.com/fourcard/](https://todointerconectado.com/fourcard/)
+Access the resolution of the challenge: [https://todointerconectado.com/fourcard/](https://todointerconectado.com/fourcard/)
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
 ## The challenge
